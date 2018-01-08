@@ -38,13 +38,13 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'FORUM_POSTCOUNT_POST'			=> 'Requisito de postagem para novo tópico/resposta ',
+	'FORUM_POSTCOUNT_POST'			=> 'Requisito de post para novo tópico/resposta ',
 	'FORUM_POSTCOUNT_POST_EXPLAIN'	=> 'Número de posts necessários para postar neste fórum. Definir esse valor como 0 desativa esse requisito.',
-	'FORUM_POSTCOUNT_VIEW'			=> 'Ver requisitos de postagem',
-	'FORUM_POSTCOUNT_VIEW_EXPLAIN'	=> 'Número de postagens necessárias para visualizar este fórum. Definir esse valor como 0 desativa esse requisito.',
+	'FORUM_POSTCOUNT_VIEW'			=> 'Ver requisitos de posts',
+	'FORUM_POSTCOUNT_VIEW_EXPLAIN'	=> 'Número de posts necessários para visualizar este fórum. Definir esse valor como 0 desativa esse requisito.',
 
 	'GROUP_BYPASS_POSTCOUNT'			=> 'Ignorar requisitos de contagem de post',
-	'GROUP_BYPASS_POSTCOUNT_EXPLAIN'	=> 'Este grupo e seus membros podem visualizar e postar em fóruns, mesmo que eles não tenham a quantidade de postagem necessária.',
+	'GROUP_BYPASS_POSTCOUNT_EXPLAIN'	=> 'Este grupo e seus membros podem visualizar e postar em fóruns, mesmo que eles não tenham a quantidade de post necessário.',
 
 	'NEED_POSTS'	=> array(
 		1	=> 'Você precisa de mais %1$d post.',
